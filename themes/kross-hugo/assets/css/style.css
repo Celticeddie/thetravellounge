@@ -984,10 +984,11 @@ blockquote {
 @media(min-width:991px) {
 .latestepisode {
 position: absolute;
-    bottom: 0;
     max-width: 400px;
     right: 135px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    transition: .3s ease;
 }
+}
+.navigation.nav-bg + .latestepisode {
+  right: 173px;
 }
