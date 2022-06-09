@@ -81,7 +81,6 @@ preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 # contact
 [params.contact]
 enable = true
-form_action = "#" # contact form works with : https://formspree.io
 
 # google map
 [params.map]
@@ -111,5 +110,5 @@ URL = "#"
 
 [[params.social]]
 icon = "ti-twitter-alt"
-URL = "#"
+URL = "https://twitter.com/thehappyfinn"
 

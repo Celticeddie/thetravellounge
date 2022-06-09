@@ -101,16 +101,13 @@ expire_days = 2
 # social site
 [[params.social]]
 icon = "ti-facebook"
-URL = "#"
+URL = "https://www.facebook.com/happyfinntravel"
 
 [[params.social]]
 icon = "ti-instagram"
 URL = "https://www.instagram.com/the_travel_expert/"
 
-[[params.social]]
-icon = "ti-dribbble"
-URL = "#"
 
 [[params.social]]
 icon = "ti-twitter-alt"
-URL = "https://twitter.com/edfinntravel"
+URL = "https://twitter.com/thehappyfinn"
