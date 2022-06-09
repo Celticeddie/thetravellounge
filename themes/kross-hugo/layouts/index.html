@@ -1,0 +1,120 @@
+{{ define "main" }}
+
+  <!-- hero area -->
+  <section class="hero-area bg-primary overflow-hidden" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="text-white font-secondary">{{ site.Data.homepage.banner.title | safeHTML }}</h1>
+        </div>
+        <div class="col-lg-4 mx-auto latestepisode">
+          <h3>Latest episode</h3>
+          <div id='buzzsprout-small-player-limit-1'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/989476.js?artist=&container_id=buzzsprout-small-player-limit-1&limit=1&player=small'></script>
+          <a href="/episodes" class="more">See more episodes <i class="ti-arrow-top-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="layer-bg w-100">
+      <img class="img-fluid w-100" src="{{`images/illustrations/leaf-bg.png` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l2">
+      <img src="{{`images/illustrations/dots-cyan.svg` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l3">
+      <img src="{{`images/illustrations/leaf-orange.svg` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l4">
+      <img src="{{`images/illustrations/dots-orange.svg` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l5">
+      <img src="{{`images/illustrations/leaf-yellow.svg` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l6">
+      <img src="{{`images/illustrations/leaf-cyan.svg` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l7">
+      <img src="{{`images/illustrations/dots-group-orange.svg` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l8">
+      <img src="{{`images/illustrations/leaf-pink-round.svg` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l9">
+      <img src="{{`images/illustrations/leaf-cyan-2.svg` | relURL}}" alt="bg-shape">
+    </div>
+    <!-- social icon -->
+    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+      {{ range site.Params.social }}
+      <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
+      {{ end }}
+    </ul>
+    <!-- /social icon -->
+  </section>
+  <!-- /hero area -->
+
+  {{ if site.Data.homepage.about.enable }}
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          {{ with site.Data.homepage.about }}
+          <p class="font-secondary lead text-dark">{{.content | markdownify}}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.label}}</a>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ end }}
+
+
+  {{ if site.Data.homepage.episodes.enable }}
+  {{ with site.Data.homepage.episodes }}
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <div id='buzzsprout-large-player'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/989476.js?container_id=buzzsprout-large-player&player=large'></script>
+          <a href="/episodes">See more episodes <i class="ti-arrow-top-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+
+
+  {{ if site.Data.homepage.logo_slider.enable }}
+  <!--  logo slider -->
+  <section class="section pb-0">
+    <div class="container">
+      {{ partial "client-slider.html" . }}
+    </div>
+  </section>
+  <!-- / logo slider -->
+  {{ end }}
+
+  {{ if site.Data.homepage.press.enable }}
+  <!-- blog -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{site.Data.homepage.press.title | markdownify }}</h2>
+        </div>
+        {{ range first 3 (where .Site.RegularPages "Section" "press")}}
+        {{ .Render "post" }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /blog -->
+  {{ end }}
+
+
+{{ end }}
