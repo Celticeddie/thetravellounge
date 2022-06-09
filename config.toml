@@ -37,10 +37,10 @@ URL = "episodes/"
 name = "Episodes"
 weight = 1
 
-[[menu.main]]
-URL = "press/"
-name = "Press"
-weight = 2
+# [[menu.main]]
+# URL = "press/"
+# name = "Press"
+# weight = 2
 
 [[menu.main]]
 URL = "about/"

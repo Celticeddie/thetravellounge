@@ -5,7 +5,7 @@ banner:
 # about
 about:
   enable : true
-  content : "The Travel Lounge podcast with award winning travel journalist Ed Finn and travel expert Sarah Slattery chats to special guests every month.  Ed & Sarah have visited more than 60 countries between them, as well as making lots of travel programmes for radio & television in Ireland.  Sarah was a travel agent for more than 24 years before setting up her website - thetravelexpert.ie in 2015.  Sarah has over 100,000 followers on her site and she has great tips, reviews and travel deals to help you plan some great value trips away.  Ed features regularly on our TV screens with his travel programmes and weekly on Travel Talk on Sunshine1068FM in Dublin.  Ed interviews guests from all over the world bringing insightful and entertaining stories from experts, influencers  and digital nomads who share their passion for travel."
+  content : "The Travel Lounge podcast with award winning travel journalist Ed Finn and travel expert Sarah Slattery chats to special guests every month. Ed & Sarah have visited more than 60 countries between them. Sarah was a travel agent for more than 24 years before setting up her website - thetravelexpert.ie in 2015.  Ed features regularly on Radio & TV. Guests from around the world offer insightful and entertaining stories and include travel industry experts, influencers and digital nomads who all share their passion for travel."
   button:
     enable : true
     label : "know more"
@@ -19,7 +19,7 @@ episodes:
 
 # Press
 press:
-  enable : true
+  enable : false
   title : "Press"
   # post comes from "content/press" folder
 
