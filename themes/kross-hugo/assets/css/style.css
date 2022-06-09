@@ -452,6 +452,16 @@ textarea.form-control {
   }
 }
 
+.navbar { z-index: 1; }
+.navigation .airp {
+  position: absolute;
+    right: 50px;
+    top: 20px;
+    max-width: 120px;
+    transition: .3s ease;
+}
+  .navigation.nav-bg .airp {
+    max-width: 80px;
 }
 
 @media(max-width:991px) {
@@ -459,6 +469,13 @@ textarea.form-control {
     padding: 20px;
     background: var(--primary-color)
   }
+
+.navigation .airp {
+right: 80px;
+    top: 5px;
+    max-width: 100px;
+  }
+
 }
 
 .navbar .nav-item .nav-link {
@@ -952,7 +969,7 @@ blockquote {
 
 .latestepisode {
   z-index: 999;
-  margin-top: 15px;
+  margin-top: 130px;
   padding: 20px;
   background-color: white;
   border-radius: 15px;
@@ -963,3 +980,4 @@ blockquote {
   padding-top: 10px;
   display: inline-block;
 }
+
