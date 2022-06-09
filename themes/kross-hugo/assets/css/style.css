@@ -986,10 +986,7 @@ blockquote {
 .latestepisode {
 position: absolute;
     max-width: 400px;
-    right: 135px;
+    right: 170px;
     transition: .3s ease;
 }
-}
-.navigation.nav-bg + .latestepisode {
-  right: 173px;
 }
