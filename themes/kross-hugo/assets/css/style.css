@@ -981,3 +981,13 @@ blockquote {
   display: inline-block;
 }
 
+@media(min-width:991px) {
+.latestepisode {
+position: absolute;
+    bottom: 0;
+    max-width: 400px;
+    right: 100px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+}
