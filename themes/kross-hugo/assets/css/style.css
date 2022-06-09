@@ -990,3 +990,13 @@ position: absolute;
     transition: .3s ease;
 }
 }
+
+.slick-track a {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.slick-track a img {
+  margin-right: 3px;
+  margin-bottom: 2px;
+}

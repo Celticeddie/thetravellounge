@@ -28,33 +28,63 @@ press:
 logo_slider:
   enable : true
   item:
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "http://examplesite.com"
+    - logo : "images/icons/apple.png"
+      title: "Apple Podcasts"
+      URL : "https://podcasts.apple.com/ie/podcast/the-travel-lounge/id1508525049"
       
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "#"
+    - logo : "images/icons/spotify.png"
+      title: "Spotify"
+      URL : "https://open.spotify.com/show/6tCDUmukLhcOZZwM0VpgOU"
       
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "http://examplesite.com"
+    - logo : "images/icons/google.png"
+      title: "Google Podcasts"
+      URL : "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS85ODk0NzYucnNz"
       
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
+    - logo : "images/icons/overcast.png"
+      title: "Overcast"
+      URL : "https://overcast.fm/itunes1508525049"
       
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "http://examplesite.com"
+    - logo : "images/icons/stitcher.png"
+      title: "Stitcher"
+      URL : "https://www.stitcher.com/podcast/the-travel-lounge"
       
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "#"
+    - logo : "images/icons/tunein.png"
+      title: "TuneIn + Alexa"
+      URL : "https://tunein.com/podcasts/Arts--Culture-Podcasts/The-Travel-Lounge-p1316298/"
       
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "http://examplesite.com"
+    - logo : "images/icons/podcastaddict.png"
+      title: "Podcast Addict"
+      URL : "https://podplayer.net/?podId=2880162"
       
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
+    - logo : "images/icons/castro.png"
+      title: "Castro"
+      URL : "https://castro.fm/itunes/1508525049"
       
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "http://examplesite.com"
+    - logo : "images/icons/castbox.png"
+      title: "Castbox"
+      URL : "https://castbox.fm/vic/1508525049?ref=buzzsprout"
       
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
+    - logo : "images/icons/podchaser.png"
+      title: "Podchaser"
+      URL : "https://www.podchaser.com/podcasts/the-travel-lounge-1141588"
+
+    - logo : "images/icons/pca.png"
+      title: "Pocket Casts"
+      URL : "https://pca.st/itunes/1508525049"
+
+    - logo : "images/icons/deezer.png"
+      title: "Deezer"
+      URL : "https://www.deezer.com/show/1097332"
+            
+    - logo : "images/icons/listennotes.png"
+      title: "Listen Notes"
+      URL : "https://www.listennotes.com/c/0c594e26b5934377bbccdae8e5906471/"
+            
+    - logo : "images/icons/podfriend.png"
+      title: "Podfriend"
+      URL : "https://web.podfriend.com/podcast/1508525049"
+            
+    - logo : "images/icons/rss.png"
+      title: "RSS Feed"
+      URL : "https://feeds.buzzsprout.com/989476.rss"
 
