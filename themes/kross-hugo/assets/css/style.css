@@ -979,6 +979,7 @@ blockquote {
 .latestepisode a.more {
   padding-top: 10px;
   display: inline-block;
+  color: #016f84;
 }
 
 @media(min-width:991px) {
