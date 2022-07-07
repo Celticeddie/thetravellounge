@@ -3,7 +3,7 @@ baseURL = ""
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "The Travel Lounge"
+title = "The Travel Times Podcast"
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
