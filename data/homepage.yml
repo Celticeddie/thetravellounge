@@ -1,11 +1,11 @@
 # banner
 banner:
-  title : "The Travel Lounge<br><spam class='h3'>with Ed Finn and Sarah Slattery</span>"
+  title : "The Travel Times Podcast<br><spam class='h3'>with Ed Finn </span>"
 
 # about
 about:
   enable : true
-  content : "The Travel Lounge podcast with award winning travel journalist Ed Finn and travel expert Sarah Slattery chats to special guests every month. Ed & Sarah have visited more than 60 countries between them. Sarah was a travel agent for more than 24 years before setting up her website - thetravelexpert.ie in 2015.  Ed features regularly on Radio & TV. Guests from around the world offer insightful and entertaining stories and include travel industry experts, influencers and digital nomads who all share their passion for travel."
+  content : "The Travel Times podcast is an interview series where award winning travel journalist Ed chats to his special guest experts who offer fresh, unique perspectives and in-depth local knowledge that go beyond the guidebooks.  From airline bosses to local tour guides, from chefs to concierges Ed meets them all in this engaging and entertaining podcast.  It’s Travel for the Times we live in."
   button:
     enable : true
     label : "know more"
