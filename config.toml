@@ -58,7 +58,7 @@ weight = 4
 home = "Home"
 logo = "/images/logo-small.png"
 # theme color
-theme_color = "#e71e75"
+theme_color = "#00adee"
 # contact info
 phone = ""
 email = "info@thetravellounge.ie"
