@@ -971,11 +971,11 @@ blockquote {
   z-index: 999;
   margin-top: 130px;
   padding: 20px;
-  background-color: #ff9e2b;
+  background-color: #fff;
   border-radius: 15px;
   max-width: 95%;
 }
-.latestepisode h3 { color: #016f84; }
+.latestepisode h3 { color: var(--primary-color);}
 .latestepisode a.more {
   padding-top: 10px;
   display: inline-block;
