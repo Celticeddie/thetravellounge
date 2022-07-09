@@ -5,7 +5,7 @@ banner:
 # about
 about:
   enable : true
-  content : "The Travel Lounge podcast is a relaxed forum where award winning travel journalist Ed Finn and travel expert Sarah Slattery chat to their special guests and industry experts offering fresh, unique perspectives and in-depth local knowledge that go beyond the guidebooks.  From airline bosses to local tour guides, from chefs to concierges they meet them all in this engaging and entertaining podcast."
+  content : "The Travel Lounge podcast is hosted by the travel expert Sarah Slattery and award-winning travel journalist & broadcaster Edward Finn.   Ed & Sarah interview guests from across the travel and hospitality industry and bring you the latest tips and tricks to bring the joy back into travel again.   Every week we bring you the latest happenings and deals from holidays at home to exciting places and destinations abroad.   So... pour yourself a glass of your favourite tipple and join us in our exclusive Travel Lounge........ We will call you when your flight is boarding....."
   button:
     enable : true
     label : "know more"
